@@ -3,9 +3,9 @@
 int main() {
     int a = 1;
     int b = 2;
-    int temp = a;
-    a = b;
-    b = temp;
+    int temp = b;
+    b = a;
+    a = temp;
     std::cout << a;
     std::cout << b;
     return 0;
